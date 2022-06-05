@@ -14,23 +14,23 @@
 </head>
 
 <body>
-  <main class="card">
-    <div>
-      <h1>App de gastos</h1>
-      <span>Ingresa cuento pago cada persona</span>
+  <main class="d-flex flex-column card gap-4 pb-5">
+    <div class="bg-primary p-4">
+      <h1 class="text-center">App de gastos</h1>
+      <p class="text-center">Ingresa cuanto pago cada persona</p>
     </div>
-    <div>
-      <input type="text" name="name" id="" placeholder="Ingrese su nombre">
-      <input type="number" name="payedAmount" id="" placeholder="Ingrese el monto que pago">
-      <button type="button">Enviar</button>
+    <div class="d-flex flex-column p-3 gap-2">
+      <input class="p-1" type="text" name="name" id="" placeholder="Ingrese su nombre">
+      <input class="p-1" type="number" name="payedAmount" id="" placeholder="Ingrese el monto que pago">
+      <button class="btn btn-primary" type="button">Enviar</button>
     </div>
-    <div>
-      <ul>
-        <li>Javier: $130</li>
+    <div class="ps-3 pe-3">
+      <ul class="gap-1">
+        <li class="border p-1">Javier: $130</li>
       </ul>
     </div>
-    <span>Total: $1090</span>
-    <span>A cada uno le toca aportar: $363.33</span>
+    <span class="ps-3">Total: $1090</span>
+    <span class="ps-3">A cada uno le toca aportar: $363.33</span>
   </main>
 
   <!-- JAVASCRIPT BOOTSTRAP -->
